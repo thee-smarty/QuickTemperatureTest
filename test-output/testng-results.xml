@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="17" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-23T10:46:32 IST" name="hackathon" finished-at="2025-04-23T10:47:35 IST" duration-ms="62833">
+    <groups>
+      <group name="regresssion">
+        <method signature="TemperatureConverterTest.funSelectNullUnit()[pri:4, instance:testCases.TemperatureConverterTest@6c40365c]" name="funSelectNullUnit" class="testCases.TemperatureConverterTest"/>
+      </group> <!-- regresssion -->
+      <group name="functional">
+        <method signature="TemperatureConverterTest.openURL()[pri:1, instance:testCases.TemperatureConverterTest@6c40365c]" name="openURL" class="testCases.TemperatureConverterTest"/>
+        <method signature="TemperatureConverterTest.validateTempConvUI()[pri:2, instance:testCases.TemperatureConverterTest@6c40365c]" name="validateTempConvUI" class="testCases.TemperatureConverterTest"/>
+        <method signature="TemperatureConverterTest.funSelectUnit(java.lang.String)[pri:3, instance:testCases.TemperatureConverterTest@6c40365c]" name="funSelectUnit" class="testCases.TemperatureConverterTest"/>
+        <method signature="TemperatureConverterTest.funSelectNullUnit()[pri:4, instance:testCases.TemperatureConverterTest@6c40365c]" name="funSelectNullUnit" class="testCases.TemperatureConverterTest"/>
+        <method signature="TemperatureConverterTest.funTempConv(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TemperatureConverterTest@6c40365c]" name="funTempConv" class="testCases.TemperatureConverterTest"/>
+        <method signature="TemperatureConverterTest.verifyBackgroundChange(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TemperatureConverterTest@6c40365c]" name="verifyBackgroundChange" class="testCases.TemperatureConverterTest"/>
+        <method signature="CityTemperatureTest.validateTempConvUI()[pri:7, instance:testCases.CityTemperatureTest@23348b5d]" name="validateTempConvUI" class="testCases.CityTemperatureTest"/>
+        <method signature="CityTemperatureTest.funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d]" name="funCityTemp" class="testCases.CityTemperatureTest"/>
+        <method signature="CityTemperatureTest.verifyBackgroundChange()[pri:9, instance:testCases.CityTemperatureTest@23348b5d]" name="verifyBackgroundChange" class="testCases.CityTemperatureTest"/>
+        <method signature="CityTemperatureTest.validateMinMaxTemperatures()[pri:10, instance:testCases.CityTemperatureTest@23348b5d]" name="validateMinMaxTemperatures" class="testCases.CityTemperatureTest"/>
+      </group> <!-- functional -->
+      <group name="ui">
+        <method signature="TemperatureConverterTest.openURL()[pri:1, instance:testCases.TemperatureConverterTest@6c40365c]" name="openURL" class="testCases.TemperatureConverterTest"/>
+        <method signature="TemperatureConverterTest.validateTempConvUI()[pri:2, instance:testCases.TemperatureConverterTest@6c40365c]" name="validateTempConvUI" class="testCases.TemperatureConverterTest"/>
+        <method signature="CityTemperatureTest.validateTempConvUI()[pri:7, instance:testCases.CityTemperatureTest@23348b5d]" name="validateTempConvUI" class="testCases.CityTemperatureTest"/>
+      </group> <!-- ui -->
+      <group name="regression">
+        <method signature="TemperatureConverterTest.funSelectUnit(java.lang.String)[pri:3, instance:testCases.TemperatureConverterTest@6c40365c]" name="funSelectUnit" class="testCases.TemperatureConverterTest"/>
+        <method signature="TemperatureConverterTest.verifyBackgroundChange(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TemperatureConverterTest@6c40365c]" name="verifyBackgroundChange" class="testCases.TemperatureConverterTest"/>
+        <method signature="CityTemperatureTest.verifyBackgroundChange()[pri:9, instance:testCases.CityTemperatureTest@23348b5d]" name="verifyBackgroundChange" class="testCases.CityTemperatureTest"/>
+        <method signature="CityTemperatureTest.validateMinMaxTemperatures()[pri:10, instance:testCases.CityTemperatureTest@23348b5d]" name="validateMinMaxTemperatures" class="testCases.CityTemperatureTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TemperatureConverterTest.funTempConv(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TemperatureConverterTest@6c40365c]" name="funTempConv" class="testCases.TemperatureConverterTest"/>
+        <method signature="CityTemperatureTest.funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d]" name="funCityTemp" class="testCases.CityTemperatureTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-04-23T10:46:32 IST" name="ChromeTest" finished-at="2025-04-23T10:47:35 IST" duration-ms="62833">
+      <class name="testCases.TemperatureConverterTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:33 IST" name="setup" finished-at="2025-04-23T10:46:41 IST" duration-ms="7941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:41 IST" name="setUpLogger" finished-at="2025-04-23T10:46:41 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogger -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:41 IST" name="testSetUp" finished-at="2025-04-23T10:46:41 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TemperatureConverterTest.openURL()[pri:1, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="openURL()[pri:1, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:41 IST" name="openURL" finished-at="2025-04-23T10:46:41 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:41 IST" name="pageRefresh" finished-at="2025-04-23T10:46:42 IST" duration-ms="792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openURL status=SUCCESS method=TemperatureConverterTest.openURL()[pri:1, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:42 IST" name="testSetUp" finished-at="2025-04-23T10:46:42 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TemperatureConverterTest.validateTempConvUI()[pri:2, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="validateTempConvUI()[pri:2, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:42 IST" name="validateTempConvUI" finished-at="2025-04-23T10:46:42 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTempConvUI -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:42 IST" name="pageRefresh" finished-at="2025-04-23T10:46:43 IST" duration-ms="581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateTempConvUI status=SUCCESS method=TemperatureConverterTest.validateTempConvUI()[pri:2, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:44 IST" name="testSetUp" finished-at="2025-04-23T10:46:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TemperatureConverterTest.funSelectUnit(java.lang.String)[pri:3, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="funSelectUnit(java.lang.String)[pri:3, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:44 IST" name="funSelectUnit" data-provider="UnitData" finished-at="2025-04-23T10:46:44 IST" duration-ms="304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Celsius (°C)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- funSelectUnit -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:44 IST" name="pageRefresh" finished-at="2025-04-23T10:46:45 IST" duration-ms="832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=funSelectUnit status=SUCCESS method=TemperatureConverterTest.funSelectUnit(java.lang.String)[pri:3, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:45 IST" name="testSetUp" finished-at="2025-04-23T10:46:45 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TemperatureConverterTest.funSelectUnit(java.lang.String)[pri:3, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="funSelectUnit(java.lang.String)[pri:3, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:45 IST" name="funSelectUnit" data-provider="UnitData" finished-at="2025-04-23T10:46:45 IST" duration-ms="316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fahrenheit (°F)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- funSelectUnit -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:45 IST" name="pageRefresh" finished-at="2025-04-23T10:46:46 IST" duration-ms="696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=funSelectUnit status=SUCCESS method=TemperatureConverterTest.funSelectUnit(java.lang.String)[pri:3, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:46 IST" name="testSetUp" finished-at="2025-04-23T10:46:46 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TemperatureConverterTest.funSelectUnit(java.lang.String)[pri:3, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="funSelectUnit(java.lang.String)[pri:3, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:46 IST" name="funSelectUnit" data-provider="UnitData" finished-at="2025-04-23T10:46:46 IST" duration-ms="391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kelvin (K)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- funSelectUnit -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:46 IST" name="pageRefresh" finished-at="2025-04-23T10:46:47 IST" duration-ms="590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=funSelectUnit status=SUCCESS method=TemperatureConverterTest.funSelectUnit(java.lang.String)[pri:3, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:47 IST" name="testSetUp" finished-at="2025-04-23T10:46:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TemperatureConverterTest.funSelectNullUnit()[pri:4, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="funSelectNullUnit()[pri:4, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:47 IST" name="funSelectNullUnit" finished-at="2025-04-23T10:46:47 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- funSelectNullUnit -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:47 IST" name="pageRefresh" finished-at="2025-04-23T10:46:48 IST" duration-ms="560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=funSelectNullUnit status=SUCCESS method=TemperatureConverterTest.funSelectNullUnit()[pri:4, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:48 IST" name="testSetUp" finished-at="2025-04-23T10:46:48 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TemperatureConverterTest.funTempConv(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="funTempConv(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:48 IST" name="funTempConv" data-provider="TemperatureData" finished-at="2025-04-23T10:46:49 IST" duration-ms="579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Celsius (°C)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- funTempConv -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:49 IST" name="pageRefresh" finished-at="2025-04-23T10:46:50 IST" duration-ms="978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=funTempConv status=SUCCESS method=TemperatureConverterTest.funTempConv(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:50 IST" name="testSetUp" finished-at="2025-04-23T10:46:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TemperatureConverterTest.funTempConv(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="funTempConv(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:50 IST" name="funTempConv" data-provider="TemperatureData" finished-at="2025-04-23T10:46:50 IST" duration-ms="526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Celsius (°C)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-26]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- funTempConv -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:50 IST" name="pageRefresh" finished-at="2025-04-23T10:46:51 IST" duration-ms="877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=funTempConv status=SUCCESS method=TemperatureConverterTest.funTempConv(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:51 IST" name="testSetUp" finished-at="2025-04-23T10:46:51 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TemperatureConverterTest.funTempConv(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="funTempConv(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:51 IST" name="funTempConv" data-provider="TemperatureData" finished-at="2025-04-23T10:46:52 IST" duration-ms="631" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Celsius (°C)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The temperature textbox shows the error pops up saying "please enter a valid value. The two nearest valid values are 2 and 3." expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The temperature textbox shows the error pops up saying "please enter a valid value. The two nearest valid values are 2 and 3." expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testCases.TemperatureConverterTest.funTempConv(TemperatureConverterTest.java:89)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- funTempConv -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:52 IST" name="pageRefresh" finished-at="2025-04-23T10:46:53 IST" duration-ms="722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=funTempConv status=FAILURE method=TemperatureConverterTest.funTempConv(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:53 IST" name="testSetUp" finished-at="2025-04-23T10:46:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TemperatureConverterTest.funTempConv(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="funTempConv(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:53 IST" name="funTempConv" data-provider="TemperatureData" finished-at="2025-04-23T10:46:53 IST" duration-ms="464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Celsius (°C)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- funTempConv -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:53 IST" name="pageRefresh" finished-at="2025-04-23T10:46:54 IST" duration-ms="666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=funTempConv status=SUCCESS method=TemperatureConverterTest.funTempConv(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:54 IST" name="testSetUp" finished-at="2025-04-23T10:46:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TemperatureConverterTest.verifyBackgroundChange(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="verifyBackgroundChange(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:54 IST" name="verifyBackgroundChange" data-provider="BackgroundChangeData" finished-at="2025-04-23T10:46:55 IST" duration-ms="476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Celsius (°C)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linear-gradient(0deg, rgb(253, 26, 7) 0%, rgb(223, 170, 53) 100%)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBackgroundChange -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:55 IST" name="pageRefresh" finished-at="2025-04-23T10:46:55 IST" duration-ms="484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBackgroundChange status=SUCCESS method=TemperatureConverterTest.verifyBackgroundChange(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:55 IST" name="testSetUp" finished-at="2025-04-23T10:46:55 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TemperatureConverterTest.verifyBackgroundChange(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="verifyBackgroundChange(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:55 IST" name="verifyBackgroundChange" data-provider="BackgroundChangeData" finished-at="2025-04-23T10:46:56 IST" duration-ms="675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Celsius (°C)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linear-gradient(90deg, rgb(252, 255, 158) 0%, rgb(198, 119, 0) 100%)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBackgroundChange -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:56 IST" name="pageRefresh" finished-at="2025-04-23T10:46:57 IST" duration-ms="963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBackgroundChange status=SUCCESS method=TemperatureConverterTest.verifyBackgroundChange(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:57 IST" name="testSetUp" finished-at="2025-04-23T10:46:57 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TemperatureConverterTest.verifyBackgroundChange(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="verifyBackgroundChange(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:57 IST" name="verifyBackgroundChange" data-provider="BackgroundChangeData" finished-at="2025-04-23T10:46:57 IST" duration-ms="474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Celsius (°C)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-23]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linear-gradient(90deg, rgb(28, 181, 224) 0%, rgb(0, 8, 81) 100%)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBackgroundChange -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:57 IST" name="pageRefresh" finished-at="2025-04-23T10:46:58 IST" duration-ms="736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBackgroundChange status=SUCCESS method=TemperatureConverterTest.verifyBackgroundChange(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TemperatureConverterTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TemperatureConverterTest@6c40365c]" started-at="2025-04-23T10:46:58 IST" name="teardown" finished-at="2025-04-23T10:47:02 IST" duration-ms="4138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TemperatureConverterTest -->
+      <class name="testCases.CityTemperatureTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:02 IST" name="setup" finished-at="2025-04-23T10:47:08 IST" duration-ms="6345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="classSetUp()[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:08 IST" name="classSetUp" finished-at="2025-04-23T10:47:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:08 IST" name="testSetUp" finished-at="2025-04-23T10:47:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CityTemperatureTest.validateTempConvUI()[pri:7, instance:testCases.CityTemperatureTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method is-config="true" signature="pageChange()[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:08 IST" name="pageChange" finished-at="2025-04-23T10:47:09 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageChange -->
+        <test-method signature="validateTempConvUI()[pri:7, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:09 IST" name="validateTempConvUI" finished-at="2025-04-23T10:47:09 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTempConvUI -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:09 IST" name="pageRefresh" finished-at="2025-04-23T10:47:09 IST" duration-ms="573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateTempConvUI status=SUCCESS method=CityTemperatureTest.validateTempConvUI()[pri:7, instance:testCases.CityTemperatureTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:10 IST" name="testSetUp" finished-at="2025-04-23T10:47:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CityTemperatureTest.funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method is-config="true" signature="pageChange()[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:10 IST" name="pageChange" finished-at="2025-04-23T10:47:10 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageChange -->
+        <test-method signature="funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:10 IST" name="funCityTemp" data-provider="CityData" finished-at="2025-04-23T10:47:11 IST" duration-ms="1031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- funCityTemp -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:11 IST" name="pageRefresh" finished-at="2025-04-23T10:47:12 IST" duration-ms="559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=funCityTemp status=SUCCESS method=CityTemperatureTest.funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:12 IST" name="testSetUp" finished-at="2025-04-23T10:47:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CityTemperatureTest.funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method is-config="true" signature="pageChange()[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:12 IST" name="pageChange" finished-at="2025-04-23T10:47:12 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageChange -->
+        <test-method signature="funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:12 IST" name="funCityTemp" data-provider="CityData" finished-at="2025-04-23T10:47:13 IST" duration-ms="849" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wayanad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Wrong City name}
+  (Session info: chrome=134.0.6998.178): Wrong City name
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2f497f9fe4fc85889eccdc3e7e08cd5, findElement {value=//p[@id='cityResult'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65349/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2f497f9fe4fc85889eccdc3e7e08cd5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong City name}
+  (Session info: chrome=134.0.6998.178): Wrong City name
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2f497f9fe4fc85889eccdc3e7e08cd5, findElement {value=//p[@id='cityResult'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65349/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2f497f9fe4fc85889eccdc3e7e08cd5
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at testCases.CityTemperatureTest.funCityTemp(CityTemperatureTest.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- funCityTemp -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:13 IST" name="pageRefresh" finished-at="2025-04-23T10:47:13 IST" duration-ms="617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=funCityTemp status=FAILURE method=CityTemperatureTest.funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:13 IST" name="testSetUp" finished-at="2025-04-23T10:47:13 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CityTemperatureTest.funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method is-config="true" signature="pageChange()[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:13 IST" name="pageChange" finished-at="2025-04-23T10:47:13 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageChange -->
+        <test-method signature="funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:13 IST" name="funCityTemp" data-provider="CityData" finished-at="2025-04-23T10:47:14 IST" duration-ms="916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[oasod]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- funCityTemp -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:14 IST" name="pageRefresh" finished-at="2025-04-23T10:47:15 IST" duration-ms="546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=funCityTemp status=SUCCESS method=CityTemperatureTest.funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:15 IST" name="testSetUp" finished-at="2025-04-23T10:47:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CityTemperatureTest.funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method is-config="true" signature="pageChange()[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:15 IST" name="pageChange" finished-at="2025-04-23T10:47:15 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageChange -->
+        <test-method signature="funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:15 IST" name="funCityTemp" data-provider="CityData" finished-at="2025-04-23T10:47:26 IST" duration-ms="10704" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for alert to be present (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65349/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2f497f9fe4fc85889eccdc3e7e08cd5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65349/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2f497f9fe4fc85889eccdc3e7e08cd5
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at testCases.CityTemperatureTest.funCityTemp(CityTemperatureTest.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- funCityTemp -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:26 IST" name="pageRefresh" finished-at="2025-04-23T10:47:27 IST" duration-ms="950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=funCityTemp status=FAILURE method=CityTemperatureTest.funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:27 IST" name="testSetUp" finished-at="2025-04-23T10:47:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CityTemperatureTest.funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method is-config="true" signature="pageChange()[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:27 IST" name="pageChange" finished-at="2025-04-23T10:47:27 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageChange -->
+        <test-method signature="funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:27 IST" name="funCityTemp" data-provider="CityData" finished-at="2025-04-23T10:47:27 IST" duration-ms="514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- funCityTemp -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:27 IST" name="pageRefresh" finished-at="2025-04-23T10:47:28 IST" duration-ms="839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=funCityTemp status=SUCCESS method=CityTemperatureTest.funCityTemp(java.lang.String,java.lang.String)[pri:8, instance:testCases.CityTemperatureTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:28 IST" name="testSetUp" finished-at="2025-04-23T10:47:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CityTemperatureTest.verifyBackgroundChange()[pri:9, instance:testCases.CityTemperatureTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method is-config="true" signature="pageChange()[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:28 IST" name="pageChange" finished-at="2025-04-23T10:47:28 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageChange -->
+        <test-method signature="verifyBackgroundChange()[pri:9, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:28 IST" name="verifyBackgroundChange" finished-at="2025-04-23T10:47:29 IST" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBackgroundChange -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:29 IST" name="pageRefresh" finished-at="2025-04-23T10:47:30 IST" duration-ms="427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBackgroundChange status=SUCCESS method=CityTemperatureTest.verifyBackgroundChange()[pri:9, instance:testCases.CityTemperatureTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="testSetUp(org.testng.ITestResult)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:30 IST" name="testSetUp" finished-at="2025-04-23T10:47:30 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CityTemperatureTest.validateMinMaxTemperatures()[pri:10, instance:testCases.CityTemperatureTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method is-config="true" signature="pageChange()[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:30 IST" name="pageChange" finished-at="2025-04-23T10:47:30 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageChange -->
+        <test-method signature="validateMinMaxTemperatures()[pri:10, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:30 IST" name="validateMinMaxTemperatures" finished-at="2025-04-23T10:47:30 IST" duration-ms="647" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [32.61] but found [32.61]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [32.61] but found [32.61]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failEquals(Assert.java:1594)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:157)
+at org.testng.Assert.assertNotEquals(Assert.java:2217)
+at org.testng.Assert.assertNotEquals(Assert.java:2239)
+at testCases.CityTemperatureTest.validateMinMaxTemperatures(CityTemperatureTest.java:97)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMinMaxTemperatures -->
+        <test-method is-config="true" signature="pageRefresh(org.testng.ITestResult)[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:30 IST" name="pageRefresh" finished-at="2025-04-23T10:47:31 IST" duration-ms="498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMinMaxTemperatures status=FAILURE method=CityTemperatureTest.validateMinMaxTemperatures()[pri:10, instance:testCases.CityTemperatureTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageRefresh -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.CityTemperatureTest@23348b5d]" started-at="2025-04-23T10:47:31 IST" name="teardown" finished-at="2025-04-23T10:47:35 IST" duration-ms="4201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.CityTemperatureTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- hackathon -->
+</testng-results>

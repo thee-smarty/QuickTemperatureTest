@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [hackathon]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="functional"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TemperatureConverterTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="testSetUp"/>
+          <include name="funTempConv" invocation-numbers="2"/>
+          <include name="setup"/>
+          <include name="pageRefresh"/>
+          <include name="setUpLogger"/>
+        </methods>
+      </class> <!-- testCases.TemperatureConverterTest -->
+      <class name="testCases.CityTemperatureTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="validateMinMaxTemperatures"/>
+          <include name="testSetUp"/>
+          <include name="setup"/>
+          <include name="pageRefresh"/>
+          <include name="pageChange"/>
+          <include name="funCityTemp" invocation-numbers="1 3"/>
+          <include name="classSetUp"/>
+        </methods>
+      </class> <!-- testCases.CityTemperatureTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [hackathon] -->

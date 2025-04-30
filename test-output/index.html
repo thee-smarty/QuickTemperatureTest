@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-hackathon" class="navigator-link">
+              <span class="suite-name border-failed">hackathon</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-hackathon" class="navigator-link ">
+                    <span>C:\Users\2389221\eclipse-workspace\hackathon\master.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-hackathon" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-hackathon" class="navigator-link ">
+                    <span>5 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-hackathon" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-hackathon" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-hackathon" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-hackathon" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 4 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-hackathon" class="hide-methods failed suite-hackathon"> (hide)</a> <!-- hide-methods failed suite-hackathon -->
+                      <a href="#" panel-name="suite-hackathon" class="show-methods failed suite-hackathon"> (show)</a> <!-- show-methods failed suite-hackathon -->
+                    </span>
+                    <div class="method-list-content failed suite-hackathon">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.CityTemperatureTest" class="method navigator-link" hash-for-method="funCityTemp(Wayanad, Valid)">funCityTemp(Wayanad, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.CityTemperatureTest" class="method navigator-link" hash-for-method="funCityTemp(India, Invalid)">funCityTemp(India, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.TemperatureConverterTest" class="method navigator-link" hash-for-method="funTempConv(Celsius (°C), 3.4, Invalid)">funTempConv(Celsius (°C), 3.4, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.CityTemperatureTest" class="method navigator-link" hash-for-method="validateMinMaxTemperatures">validateMinMaxTemperatures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-hackathon -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-hackathon" class="hide-methods passed suite-hackathon"> (hide)</a> <!-- hide-methods passed suite-hackathon -->
+                      <a href="#" panel-name="suite-hackathon" class="show-methods passed suite-hackathon"> (show)</a> <!-- show-methods passed suite-hackathon -->
+                    </span>
+                    <div class="method-list-content passed suite-hackathon">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.CityTemperatureTest" class="method navigator-link" hash-for-method="funCityTemp(, Invalid)">funCityTemp(, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.CityTemperatureTest" class="method navigator-link" hash-for-method="funCityTemp(oasod, Invalid)">funCityTemp(oasod, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.CityTemperatureTest" class="method navigator-link" hash-for-method="funCityTemp(Chennai, Valid)">funCityTemp(Chennai, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.TemperatureConverterTest" class="method navigator-link" hash-for-method="funSelectNullUnit">funSelectNullUnit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.TemperatureConverterTest" class="method navigator-link" hash-for-method="funSelectUnit(Fahrenheit (°F))">funSelectUnit(Fahrenheit (°F))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.TemperatureConverterTest" class="method navigator-link" hash-for-method="funSelectUnit(Kelvin (K))">funSelectUnit(Kelvin (K))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.TemperatureConverterTest" class="method navigator-link" hash-for-method="funSelectUnit(Celsius (°C))">funSelectUnit(Celsius (°C))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.TemperatureConverterTest" class="method navigator-link" hash-for-method="funTempConv(Celsius (°C), 26, Valid)">funTempConv(Celsius (°C), 26, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.TemperatureConverterTest" class="method navigator-link" hash-for-method="funTempConv(Celsius (°C), -26, Valid)">funTempConv(Celsius (°C), -26, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.TemperatureConverterTest" class="method navigator-link" hash-for-method="funTempConv(Celsius (°C), , Invalid)">funTempConv(Celsius (°C), , Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.TemperatureConverterTest" class="method navigator-link" hash-for-method="openURL">openURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.TemperatureConverterTest" class="method navigator-link" hash-for-method="validateTempConvUI">validateTempConvUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.CityTemperatureTest" class="method navigator-link" hash-for-method="validateTempConvUI">validateTempConvUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.TemperatureConverterTest" class="method navigator-link" hash-for-method="verifyBackgroundChange(Celsius (°C), -23, linear-gradient(90deg, rgb(28, 181, 224) 0%, rgb(0, 8, 81) 100%))">verifyBackgroundChange(Celsius (°C), -23, linear-gradient(90deg, rgb(28, 181, 224) 0%, rgb(0, 8, 81) 100%))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.CityTemperatureTest" class="method navigator-link" hash-for-method="verifyBackgroundChange">verifyBackgroundChange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.TemperatureConverterTest" class="method navigator-link" hash-for-method="verifyBackgroundChange(Celsius (°C), 40, linear-gradient(0deg, rgb(253, 26, 7) 0%, rgb(223, 170, 53) 100%))">verifyBackgroundChange(Celsius (°C), 40, linear-gradient(0deg, rgb(253, 26, 7) 0%, rgb(223, 170, 53) 100%))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hackathon" title="testCases.TemperatureConverterTest" class="method navigator-link" hash-for-method="verifyBackgroundChange(Celsius (°C), 23, linear-gradient(90deg, rgb(252, 255, 158) 0%, rgb(198, 119, 0) 100%))">verifyBackgroundChange(Celsius (°C), 23, linear-gradient(90deg, rgb(252, 255, 158) 0%, rgb(198, 119, 0) 100%))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-hackathon -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-hackathon" class="panel hackathon">
+          <div class="suite-hackathon-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TemperatureConverterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="funTempConv(Celsius (°C), 3.4, Invalid)">
+                  </a> <!-- funTempConv(Celsius (°C), 3.4, Invalid) -->
+                  <span class="method-name">funTempConv</span>
+                  <span class="parameters">(Celsius (°C),3.4,Invalid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The temperature textbox shows the error pops up saying &quot;please enter a valid value. The two nearest valid values are 2 and 3.&quot; expected [true] but found [false]
+	at testCases.TemperatureConverterTest.funTempConv(TemperatureConverterTest.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-hackathon-class-failed -->
+          <div class="suite-hackathon-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.CityTemperatureTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="funCityTemp(Wayanad, Valid)">
+                  </a> <!-- funCityTemp(Wayanad, Valid) -->
+                  <span class="method-name">funCityTemp</span>
+                  <span class="parameters">(Wayanad,Valid)</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong City name}
+  (Session info: chrome=134.0.6998.178): Wrong City name
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2f497f9fe4fc85889eccdc3e7e08cd5, findElement {value=//p[@id=&apos;cityResult&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65349/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2f497f9fe4fc85889eccdc3e7e08cd5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at testCases.CityTemperatureTest.funCityTemp(CityTemperatureTest.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="funCityTemp(India, Invalid)">
+                  </a> <!-- funCityTemp(India, Invalid) -->
+                  <span class="method-name">funCityTemp</span>
+                  <span class="parameters">(India,Invalid)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65349/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2f497f9fe4fc85889eccdc3e7e08cd5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at testCases.CityTemperatureTest.funCityTemp(CityTemperatureTest.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateMinMaxTemperatures">
+                  </a> <!-- validateMinMaxTemperatures -->
+                  <span class="method-name">validateMinMaxTemperatures</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [32.61] but found [32.61]
+	at testCases.CityTemperatureTest.validateMinMaxTemperatures(CityTemperatureTest.java:97)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-hackathon-class-failed -->
+          <div class="suite-hackathon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TemperatureConverterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="funSelectNullUnit">
+                  </a> <!-- funSelectNullUnit -->
+                  <span class="method-name">funSelectNullUnit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="funSelectUnit(Fahrenheit (°F))">
+                  </a> <!-- funSelectUnit(Fahrenheit (°F)) -->
+                  <span class="method-name">funSelectUnit</span>
+                  <span class="parameters">(Fahrenheit (°F))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="funSelectUnit(Kelvin (K))">
+                  </a> <!-- funSelectUnit(Kelvin (K)) -->
+                  <span class="method-name">funSelectUnit</span>
+                  <span class="parameters">(Kelvin (K))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="funSelectUnit(Celsius (°C))">
+                  </a> <!-- funSelectUnit(Celsius (°C)) -->
+                  <span class="method-name">funSelectUnit</span>
+                  <span class="parameters">(Celsius (°C))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="funTempConv(Celsius (°C), 26, Valid)">
+                  </a> <!-- funTempConv(Celsius (°C), 26, Valid) -->
+                  <span class="method-name">funTempConv</span>
+                  <span class="parameters">(Celsius (°C),26,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="funTempConv(Celsius (°C), -26, Valid)">
+                  </a> <!-- funTempConv(Celsius (°C), -26, Valid) -->
+                  <span class="method-name">funTempConv</span>
+                  <span class="parameters">(Celsius (°C),-26,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="funTempConv(Celsius (°C), , Invalid)">
+                  </a> <!-- funTempConv(Celsius (°C), , Invalid) -->
+                  <span class="method-name">funTempConv</span>
+                  <span class="parameters">(Celsius (°C),,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openURL">
+                  </a> <!-- openURL -->
+                  <span class="method-name">openURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTempConvUI">
+                  </a> <!-- validateTempConvUI -->
+                  <span class="method-name">validateTempConvUI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBackgroundChange(Celsius (°C), -23, linear-gradient(90deg, rgb(28, 181, 224) 0%, rgb(0, 8, 81) 100%))">
+                  </a> <!-- verifyBackgroundChange(Celsius (°C), -23, linear-gradient(90deg, rgb(28, 181, 224) 0%, rgb(0, 8, 81) 100%)) -->
+                  <span class="method-name">verifyBackgroundChange</span>
+                  <span class="parameters">(Celsius (°C),-23,linear-gradient(90deg, rgb(28, 181, 224) 0%, rgb(0, 8, 81) 100%))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBackgroundChange(Celsius (°C), 40, linear-gradient(0deg, rgb(253, 26, 7) 0%, rgb(223, 170, 53) 100%))">
+                  </a> <!-- verifyBackgroundChange(Celsius (°C), 40, linear-gradient(0deg, rgb(253, 26, 7) 0%, rgb(223, 170, 53) 100%)) -->
+                  <span class="method-name">verifyBackgroundChange</span>
+                  <span class="parameters">(Celsius (°C),40,linear-gradient(0deg, rgb(253, 26, 7) 0%, rgb(223, 170, 53) 100%))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBackgroundChange(Celsius (°C), 23, linear-gradient(90deg, rgb(252, 255, 158) 0%, rgb(198, 119, 0) 100%))">
+                  </a> <!-- verifyBackgroundChange(Celsius (°C), 23, linear-gradient(90deg, rgb(252, 255, 158) 0%, rgb(198, 119, 0) 100%)) -->
+                  <span class="method-name">verifyBackgroundChange</span>
+                  <span class="parameters">(Celsius (°C),23,linear-gradient(90deg, rgb(252, 255, 158) 0%, rgb(198, 119, 0) 100%))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-hackathon-class-passed -->
+          <div class="suite-hackathon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.CityTemperatureTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="funCityTemp(, Invalid)">
+                  </a> <!-- funCityTemp(, Invalid) -->
+                  <span class="method-name">funCityTemp</span>
+                  <span class="parameters">(,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="funCityTemp(oasod, Invalid)">
+                  </a> <!-- funCityTemp(oasod, Invalid) -->
+                  <span class="method-name">funCityTemp</span>
+                  <span class="parameters">(oasod,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="funCityTemp(Chennai, Valid)">
+                  </a> <!-- funCityTemp(Chennai, Valid) -->
+                  <span class="method-name">funCityTemp</span>
+                  <span class="parameters">(Chennai,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTempConvUI">
+                  </a> <!-- validateTempConvUI -->
+                  <span class="method-name">validateTempConvUI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBackgroundChange">
+                  </a> <!-- verifyBackgroundChange -->
+                  <span class="method-name">verifyBackgroundChange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-hackathon-class-passed -->
+        </div> <!-- panel hackathon -->
+        <div panel-name="test-xml-hackathon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2389221\eclipse-workspace\hackathon\master.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;hackathon&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;functional&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TemperatureConverterTest&quot;/&gt;
+      &lt;class name=&quot;testCases.CityTemperatureTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+&lt;/suite&gt; &lt;!-- hackathon --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-hackathon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for hackathon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-hackathon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for hackathon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">functional</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">funCityTemp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">funSelectNullUnit</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">funSelectUnit</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">funTempConv</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">openURL</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateMinMaxTemperatures</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateTempConvUI</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyBackgroundChange</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">funSelectUnit</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateMinMaxTemperatures</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyBackgroundChange</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">regresssion</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">funSelectNullUnit</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">funCityTemp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">funTempConv</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ui</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">openURL</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateTempConvUI</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-hackathon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for hackathon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_hackathon');
+function tableData_hackathon() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'funCityTemp')
+data.setCell(0, 2, 'testCases.CityTemperatureTest')
+data.setCell(0, 3, 10704);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'funCityTemp')
+data.setCell(1, 2, 'testCases.CityTemperatureTest')
+data.setCell(1, 3, 1031);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyBackgroundChange')
+data.setCell(2, 2, 'testCases.CityTemperatureTest')
+data.setCell(2, 3, 966);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'funCityTemp')
+data.setCell(3, 2, 'testCases.CityTemperatureTest')
+data.setCell(3, 3, 916);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'funCityTemp')
+data.setCell(4, 2, 'testCases.CityTemperatureTest')
+data.setCell(4, 3, 849);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyBackgroundChange')
+data.setCell(5, 2, 'testCases.TemperatureConverterTest')
+data.setCell(5, 3, 675);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateMinMaxTemperatures')
+data.setCell(6, 2, 'testCases.CityTemperatureTest')
+data.setCell(6, 3, 647);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'funTempConv')
+data.setCell(7, 2, 'testCases.TemperatureConverterTest')
+data.setCell(7, 3, 631);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'funTempConv')
+data.setCell(8, 2, 'testCases.TemperatureConverterTest')
+data.setCell(8, 3, 579);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'funTempConv')
+data.setCell(9, 2, 'testCases.TemperatureConverterTest')
+data.setCell(9, 3, 526);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'funCityTemp')
+data.setCell(10, 2, 'testCases.CityTemperatureTest')
+data.setCell(10, 3, 514);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyBackgroundChange')
+data.setCell(11, 2, 'testCases.TemperatureConverterTest')
+data.setCell(11, 3, 476);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyBackgroundChange')
+data.setCell(12, 2, 'testCases.TemperatureConverterTest')
+data.setCell(12, 3, 474);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'funTempConv')
+data.setCell(13, 2, 'testCases.TemperatureConverterTest')
+data.setCell(13, 3, 464);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateTempConvUI')
+data.setCell(14, 2, 'testCases.TemperatureConverterTest')
+data.setCell(14, 3, 393);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'funSelectUnit')
+data.setCell(15, 2, 'testCases.TemperatureConverterTest')
+data.setCell(15, 3, 391);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'funSelectUnit')
+data.setCell(16, 2, 'testCases.TemperatureConverterTest')
+data.setCell(16, 3, 316);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'funSelectUnit')
+data.setCell(17, 2, 'testCases.TemperatureConverterTest')
+data.setCell(17, 3, 304);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'funSelectNullUnit')
+data.setCell(18, 2, 'testCases.TemperatureConverterTest')
+data.setCell(18, 3, 208);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validateTempConvUI')
+data.setCell(19, 2, 'testCases.CityTemperatureTest')
+data.setCell(19, 3, 186);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'openURL')
+data.setCell(20, 2, 'testCases.TemperatureConverterTest')
+data.setCell(20, 3, 46);
+window.suiteTableData['hackathon']= { tableData: data, tableDiv: 'times-div-hackathon'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-hackathon">
+              </div> <!-- times-div-hackathon -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-hackathon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for hackathon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-hackathon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-hackathon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TemperatureConverterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpLogger</span>
+                <span class="method-start">7942 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=TemperatureConverterTest.openURL()[pri:1, instance:tes...)</span>
+                <span class="method-start">7976 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openURL</span>
+                <span class="method-start">7987 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=openURL status=SUCCESS method=TemperatureConverterTest.openURL()[pri:1, instance:te...)</span>
+                <span class="method-start">8061 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=TemperatureConverterTest.validateTempConvUI()[pri:2, i...)</span>
+                <span class="method-start">8863 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateTempConvUI</span>
+                <span class="method-start">8865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=validateTempConvUI status=SUCCESS method=TemperatureConverterTest.validateTempConvU...)</span>
+                <span class="method-start">9263 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=TemperatureConverterTest.funSelectUnit(java.lang.Strin...)</span>
+                <span class="method-start">11057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">funSelectUnit(Celsius (°C))</span>
+                <span class="method-start">11058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=funSelectUnit status=SUCCESS method=TemperatureConverterTest.funSelectUnit(java.lan...)</span>
+                <span class="method-start">11365 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=TemperatureConverterTest.funSelectUnit(java.lang.Strin...)</span>
+                <span class="method-start">12198 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">funSelectUnit(Fahrenheit (°F))</span>
+                <span class="method-start">12203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=funSelectUnit status=SUCCESS method=TemperatureConverterTest.funSelectUnit(java.lan...)</span>
+                <span class="method-start">12522 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=TemperatureConverterTest.funSelectUnit(java.lang.Strin...)</span>
+                <span class="method-start">13220 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">funSelectUnit(Kelvin (K))</span>
+                <span class="method-start">13222 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=funSelectUnit status=SUCCESS method=TemperatureConverterTest.funSelectUnit(java.lan...)</span>
+                <span class="method-start">13618 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=TemperatureConverterTest.funSelectNullUnit()[pri:4, in...)</span>
+                <span class="method-start">14209 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">funSelectNullUnit</span>
+                <span class="method-start">14210 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=funSelectNullUnit status=SUCCESS method=TemperatureConverterTest.funSelectNullUnit(...)</span>
+                <span class="method-start">14422 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=TemperatureConverterTest.funTempConv(java.lang.String,...)</span>
+                <span class="method-start">15600 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">funTempConv(Celsius (°C), 26, Valid)</span>
+                <span class="method-start">15602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=funTempConv status=SUCCESS method=TemperatureConverterTest.funTempConv(java.lang.St...)</span>
+                <span class="method-start">16183 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=TemperatureConverterTest.funTempConv(java.lang.String,...)</span>
+                <span class="method-start">17163 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">funTempConv(Celsius (°C), -26, Valid)</span>
+                <span class="method-start">17165 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=funTempConv status=SUCCESS method=TemperatureConverterTest.funTempConv(java.lang.St...)</span>
+                <span class="method-start">17694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=TemperatureConverterTest.funTempConv(java.lang.String,...)</span>
+                <span class="method-start">18572 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">funTempConv(Celsius (°C), 3.4, Invalid)</span>
+                <span class="method-start">18576 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=funTempConv status=FAILURE method=TemperatureConverterTest.funTempConv(java.lang.St...)</span>
+                <span class="method-start">19220 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=TemperatureConverterTest.funTempConv(java.lang.String,...)</span>
+                <span class="method-start">19945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">funTempConv(Celsius (°C), , Invalid)</span>
+                <span class="method-start">19948 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=funTempConv status=SUCCESS method=TemperatureConverterTest.funTempConv(java.lang.St...)</span>
+                <span class="method-start">20414 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=TemperatureConverterTest.verifyBackgroundChange(java.l...)</span>
+                <span class="method-start">21489 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBackgroundChange(Celsius (°C), 40, linear-gradient(0deg, rgb(253, 26, 7) 0%, rgb(223, 170, 53) 100%))</span>
+                <span class="method-start">21490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=verifyBackgroundChange status=SUCCESS method=TemperatureConverterTest.verifyBackgro...)</span>
+                <span class="method-start">21971 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=TemperatureConverterTest.verifyBackgroundChange(java.l...)</span>
+                <span class="method-start">22455 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBackgroundChange(Celsius (°C), 23, linear-gradient(90deg, rgb(252, 255, 158) 0%, rgb(198, 119, 0) 100%))</span>
+                <span class="method-start">22461 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=verifyBackgroundChange status=SUCCESS method=TemperatureConverterTest.verifyBackgro...)</span>
+                <span class="method-start">23140 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=TemperatureConverterTest.verifyBackgroundChange(java.l...)</span>
+                <span class="method-start">24104 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBackgroundChange(Celsius (°C), -23, linear-gradient(90deg, rgb(28, 181, 224) 0%, rgb(0, 8, 81) 100%))</span>
+                <span class="method-start">24107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=verifyBackgroundChange status=SUCCESS method=TemperatureConverterTest.verifyBackgro...)</span>
+                <span class="method-start">24584 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">25322 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.CityTemperatureTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">29461 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">classSetUp</span>
+                <span class="method-start">35807 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=CityTemperatureTest.validateTempConvUI()[pri:7, instan...)</span>
+                <span class="method-start">35810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageChange</span>
+                <span class="method-start">35811 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateTempConvUI</span>
+                <span class="method-start">36045 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=validateTempConvUI status=SUCCESS method=CityTemperatureTest.validateTempConvUI()[p...)</span>
+                <span class="method-start">36234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=CityTemperatureTest.funCityTemp(java.lang.String,java....)</span>
+                <span class="method-start">37153 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageChange</span>
+                <span class="method-start">37154 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">funCityTemp(Chennai, Valid)</span>
+                <span class="method-start">37263 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=funCityTemp status=SUCCESS method=CityTemperatureTest.funCityTemp(java.lang.String,...)</span>
+                <span class="method-start">38298 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=CityTemperatureTest.funCityTemp(java.lang.String,java....)</span>
+                <span class="method-start">38858 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageChange</span>
+                <span class="method-start">38860 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">funCityTemp(Wayanad, Valid)</span>
+                <span class="method-start">39019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=funCityTemp status=FAILURE method=CityTemperatureTest.funCityTemp(java.lang.String,...)</span>
+                <span class="method-start">39874 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=CityTemperatureTest.funCityTemp(java.lang.String,java....)</span>
+                <span class="method-start">40494 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageChange</span>
+                <span class="method-start">40497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">funCityTemp(oasod, Invalid)</span>
+                <span class="method-start">40667 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=funCityTemp status=SUCCESS method=CityTemperatureTest.funCityTemp(java.lang.String,...)</span>
+                <span class="method-start">41584 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=CityTemperatureTest.funCityTemp(java.lang.String,java....)</span>
+                <span class="method-start">42131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageChange</span>
+                <span class="method-start">42131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">funCityTemp(India, Invalid)</span>
+                <span class="method-start">42301 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=funCityTemp status=FAILURE method=CityTemperatureTest.funCityTemp(java.lang.String,...)</span>
+                <span class="method-start">53007 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=CityTemperatureTest.funCityTemp(java.lang.String,java....)</span>
+                <span class="method-start">53958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageChange</span>
+                <span class="method-start">53959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">funCityTemp(, Invalid)</span>
+                <span class="method-start">54113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=funCityTemp status=SUCCESS method=CityTemperatureTest.funCityTemp(java.lang.String,...)</span>
+                <span class="method-start">54629 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=CityTemperatureTest.verifyBackgroundChange()[pri:9, in...)</span>
+                <span class="method-start">55470 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageChange</span>
+                <span class="method-start">55471 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBackgroundChange</span>
+                <span class="method-start">55577 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=verifyBackgroundChange status=SUCCESS method=CityTemperatureTest.verifyBackgroundCh...)</span>
+                <span class="method-start">56544 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetUp([TestResult name={null} status=CREATED method=CityTemperatureTest.validateMinMaxTemperatures()[pri:1...)</span>
+                <span class="method-start">56973 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageChange</span>
+                <span class="method-start">56975 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateMinMaxTemperatures</span>
+                <span class="method-start">57122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">pageRefresh([TestResult name=validateMinMaxTemperatures status=FAILURE method=CityTemperatureTest.validateMinMax...)</span>
+                <span class="method-start">57770 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">58269 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
